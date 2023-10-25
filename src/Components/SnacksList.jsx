@@ -1,5 +1,5 @@
 // SnacksList.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Snacks from "./Snacks";
 import styles from "./Snackslist.module.css"; // Import the CSS module

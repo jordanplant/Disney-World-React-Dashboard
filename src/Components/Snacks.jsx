@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import styles from "./Snackslist.module.css";
 
 const Snacks = ({ snacks, handleComplete, handleEdit, handleDelete }) => {
@@ -44,6 +45,14 @@ const Snacks = ({ snacks, handleComplete, handleEdit, handleDelete }) => {
       </div>
     </>
   );
+};
+
+// Define the expected prop types for the Snacks component
+Snacks.propTypes = {
+  snacks: PropTypes.array.isRequired,
+  handleComplete: PropTypes.func.isRequired,
+  handleEdit: PropTypes.func.isRequired,
+  handleDelete: PropTypes.func.isRequired,
 };
 
 export default Snacks;

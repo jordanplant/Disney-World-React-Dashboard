@@ -1,6 +1,5 @@
 // import { useState } from "react";
 import "./App.css";
-import NavBar from "./Components/NavBar";
 import PageLayout from "./Components/PageLayout";
 
 function App() {
@@ -9,8 +8,6 @@ function App() {
   return (
     <>
       <PageLayout />
-      {/* <h1>Hello test</h1> */}
-      {/* <NavBar /> */}
     </>
   );
 }

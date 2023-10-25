@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./WeatherApp.css";
 
 function WeatherApp() {
@@ -36,7 +36,7 @@ function WeatherApp() {
     }
 
     fetchWeatherData();
-  }, []);
+  }, [apiUrl]); // Add apiUrl to the dependency array
 
   function updateWeatherIcon(weatherCondition) {
     switch (weatherCondition) {

@@ -1,19 +1,14 @@
-// import { Outlet } from "react-router-dom";
-// import SiteNav from "./SiteNav";
-import React, { useState } from "react";
-
+import { useState } from "react"; // Import useState from React
 import "./PageLayout.css";
-import NavBar from "./NavBar";
 import Countdown from "./Countdown";
 import WeatherApp from "./Weatherapp";
 import SnacksList from "./SnacksList";
-import Snacks from "./Snacks";
 import WaitTimes from "./WaitTimes";
 
 function PageLayout() {
   const [input, setInput] = useState("");
-  const [snacks, setSnacks] = useState([]);
   const [editSnack, setEditSnack] = useState(null);
+  const [snacks, setSnacks] = useState([]); // Define snacks state variable
 
   return (
     <>
@@ -21,7 +16,6 @@ function PageLayout() {
         <div className="card-containers">
           <div className="title-bar card">
             <h1 className="text-gradient">Hello Disney World</h1>
-            <NavBar />
           </div>
           <div className="countdown-bar card">
             <h2 className="text-gradient">Days to go</h2>

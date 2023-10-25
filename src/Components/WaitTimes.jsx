@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "./WaitTimes.module.css";
 
 const allowedRideIds = [146, 138, 133, 137, 130, 134, 140, 129];
