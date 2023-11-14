@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types"; // Import PropTypes
-import styles from "./Snackslist.module.css";
+import styles from "./SnacksListNew.module.css";
 
 const Snacks = ({ snacks, handleComplete, handleEdit, handleDelete }) => {
   return (
