@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Snacks from "./Snacks";
-import styles from "./SnacksList.module.css"; // Import the CSS module
+import Styles from "./SnacksList.module.css"; // Import the CSS module
 
 const SnacksList = () => {
   const [input, setInput] = useState("");
@@ -58,16 +58,16 @@ const SnacksList = () => {
 
   return (
     <div>
-      <form className={styles.formBar} onSubmit={onFormSubmit}>
+      <form className={Styles.formBar} onSubmit={onFormSubmit}>
         <input
           type="text"
           placeholder="Enter your snacks here"
-          className={styles.taskInput}
+          className={Styles.taskInput}
           value={input}
           required
           onChange={onInputChange}
         />
-        <button className={styles.buttonAdd} type="submit">
+        <button className={Styles.buttonAdd} type="submit">
           {editMode ? "Update" : "Add"}
         </button>
       </form>
