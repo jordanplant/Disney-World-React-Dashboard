@@ -1,13 +1,13 @@
 :root {
-  --main-padding: 20px; /* Define a CSS variable for main padding */
+  --main-padding: 20px;
 }
 
 body {
-  margin: 0; /* Remove default body margin */
+  margin: 0;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  min-height: 100vh; /* Make body take the full viewport height */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 main {

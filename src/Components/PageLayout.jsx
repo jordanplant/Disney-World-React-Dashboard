@@ -1,7 +1,7 @@
 import { useState } from "react"; // Import useState from React
 import "./PageLayout.css";
 import Countdown from "./Countdown";
-import WeatherApp from "./Weatherapp";
+import WeatherApp from "./WeatherApp";
 import SnacksList from "./SnacksList";
 import WaitTimes from "./WaitTimes";
 
