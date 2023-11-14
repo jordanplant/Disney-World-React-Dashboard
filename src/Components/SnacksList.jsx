@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Snacks from "./Snacks";
-import Styles from "./SnacksList.module.css";
+import Styles from "./SnacksList.moduleNew.css";
 
 const SnacksList = () => {
   const [input, setInput] = useState("");
